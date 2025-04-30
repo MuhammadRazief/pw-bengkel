@@ -2,6 +2,7 @@
     <div class="tentang-kami-page">
       <!-- Navbar -->
       <Navbar />
+      <Whatsapp />
   
       <!-- Hero Section -->
       <section class="hero">
@@ -48,12 +49,14 @@
   <script>
   import Navbar from "@/components/Navbar.vue";
   import Footer from "@/components/Footer.vue";
+  import Whatsapp from "@/components/Whatsapp.vue";
   
   export default {
     name: "TentangKamiPage",
     components: {
       Navbar,
       Footer,
+      Whatsapp
     },
   };
   </script>

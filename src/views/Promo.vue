@@ -2,6 +2,7 @@
     <div class="promo-page">
       <!-- Navbar -->
       <Navbar />
+        <Whatsapp />
     
       <!-- Hero Section -->
       <section class="hero">
@@ -61,12 +62,14 @@
   <script>
   import Navbar from "@/components/Navbar.vue";
   import Footer from "@/components/Footer.vue";
+  import Whatsapp from "@/components/Whatsapp.vue";
   
   export default {
     name: "PromoPage",
     components: {
       Navbar,
       Footer,
+      Whatsapp
     },
     data() {
       return {
