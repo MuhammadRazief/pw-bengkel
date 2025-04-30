@@ -10,7 +10,7 @@
     <h2 class="sub-heading">BENGKEL Cisarua</h2>
 
 
-      <p>Kami siap melayani servis kendaraan dan penyewaan mobil dengan kualitas terbaik.</p>
+      <p>Kami menjual berbagai produk yang berkualitas dan siap melayani servis kendaraan</p>
       <a href="https://wa.me/085695401702" class="btn btn-primary">Hubungi Kami</a>
 
       <div class="google-rating">
