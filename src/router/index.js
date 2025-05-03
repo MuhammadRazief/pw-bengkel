@@ -13,6 +13,8 @@ const routes = [
     { path: "/kontak", component: Kontak },
     { path: "/tentang-kami", component: Tentang },
     { path: "/promo", component: Promo },
+    // Redirect dari root ke /beranda
+    { path: "/", redirect: "/beranda" },
 ];
 
 const router = createRouter({
