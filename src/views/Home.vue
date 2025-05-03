@@ -1,4 +1,3 @@
-<!-- filepath: c:\xampp\htdocs\Bengkel\frontend\src\views\Home.vue -->
 <template>
   <div class="page-container">
     <Navbar />
@@ -65,7 +64,6 @@
     </div>
   </div>
 </section>
-<!-- filepath: c:\xampp\htdocs\Bengkel\frontend\src\views\Home.vue -->
 <section class="new-section scale-up">
   <div class="new-section-content">
     <div class="single-large-card">
@@ -99,7 +97,6 @@ export default {
 
 <style scoped>
 
-/* General Styles */
 .page-container {
   display: flex;
   flex-direction: column;
@@ -110,7 +107,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 150px 70px; /* kiri dan kanan ditambah */
+  padding: 150px 70px;
   background: #025742;
   color: #ffffff;
 }
@@ -124,15 +121,15 @@ export default {
 }
 
 .hero-text {
-  max-width: 650px; /* Batasi lebar teks */
-  text-align: left; /* Pastikan teks rata kiri */
-  margin-right: 20px; /* Tambahkan jarak antara teks dan gambar */
+  max-width: 650px;
+  text-align: left;
+  margin-right: 20px;
 }
 
 .sub-heading {
   font-size: 2.2rem;
   margin-top: 0px;
-  color: #ffc107; /* opsional: kasih warna lain */
+  color: #ffc107;
   font-weight: 600;
 }
 
@@ -150,13 +147,13 @@ export default {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  padding-left: 0; /* hapus padding manual */
+  padding-left: 0;
 }
 
 .hero-image img {
   max-width: 100%;
   height: auto;
-  max-height: 300px; /* batasi tinggi kalau perlu */
+  max-height: 300px;
 }
 
 
@@ -177,7 +174,7 @@ export default {
 
 .google-rating .stars {
   margin-left: 10px;
-  color: #ffc107; /* Warna bintang */
+  color: #ffc107;
 }
 
 
@@ -192,7 +189,7 @@ export default {
 }
 
 .text-section .btn-warning {
-  background-color: #025742; /* Warna tombol warning */
+  background-color: #025742;
 }
 
 .text-section .btn-primary:hover {
@@ -205,24 +202,23 @@ export default {
 .image-container {
   flex: 1;
   display: flex;
-  justify-content: flex-end; /* Pastikan gambar tetap di kanan */
-  align-items: center; /* Pusatkan gambar secara vertikal */
+  justify-content: flex-end;
+  align-items: center;
   position: relative;
-  max-width: 500px; /* Batasi lebar gambar */
+  max-width: 500px;
 }
 
 .main-image {
-  width: 100%; /* Gambar memenuhi kontainer */
-  height: auto; /* Pertahankan rasio aspek */
-  border-radius: 20px; /* Opsional: Tambahkan sudut membulat */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 
-/* Responsiveness */
 @media (max-width: 768px) {
   .hero-section {
-    padding: 120px 20px 30px; /* Sesuaikan padding untuk perangkat kecil */
+    padding: 120px 20px 30px;
   }
 
   .image-container {
@@ -254,26 +250,26 @@ export default {
 
 .card-container {
   display: flex;
-  flex-wrap: wrap; /* Pastikan kartu akan membungkus ke baris berikutnya jika ruang tidak cukup */
-  justify-content: center; /* Pusatkan kartu secara horizontal */
-  gap: 20px; /* Tambahkan jarak antar kartu */
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 20px;
 }
 
 .card-text {
   text-align: center;
   margin-bottom: 40px;
-  font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+  font-family: 'Poppins', sans-serif;
 }
 .card-text h1 {
   font-size: 2.5rem;
-  font-weight: 700; /* Tebal */
+  font-weight: 700;
   color: #025742;
   margin-bottom: 10px;
 }
 .card-heading {
-  font-size: 1.2rem; /* Ukuran font deskripsi */
-  font-weight: 400; /* Normal */
-  color: #666; /* Warna abu-abu */
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
   margin-top: 8px;
   margin-bottom: 16px;
 }
@@ -308,7 +304,6 @@ export default {
   color: #666;
 }
 
-/* Cards layout */
 .card-text {
   display: flex;
   flex-direction: column;
@@ -320,7 +315,7 @@ export default {
   display: inline-block;
 }
 
-/* Stats Section */
+
 .stats-container {
   display: flex;
   justify-content: center;
@@ -343,7 +338,7 @@ export default {
   color: #555;
 }
 
-/* New Section */
+
 .new-section {
   background-color: #025742;
   padding: 60px 40px;
@@ -401,7 +396,7 @@ export default {
   flex-shrink: 0;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
@@ -434,17 +429,16 @@ export default {
 }
 
 
-/* Animasi Fade-In */
 .fade-in {
   animation: fadeIn 1s ease-out;
 }
 
-/* Animasi Scale-Up */
+
 .scale-up {
   animation: scaleUp 1s ease-out;
 }
 
-/* Animasi Fade-In */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -458,7 +452,7 @@ export default {
 
 
 
-/* Animasi Scale-Up */
+
 @keyframes scaleUp {
   from {
     opacity: 0;
@@ -473,7 +467,7 @@ export default {
 .btn-whatsapp {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #25d366; /* Warna hijau WhatsApp */
+  background-color: #25d366;
   color: white;
   border-radius: 50px;
   text-decoration: none;

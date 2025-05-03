@@ -1,10 +1,8 @@
 <template>
     <div class="tentang-kami-page">
-      <!-- Navbar -->
       <Navbar />
       <Whatsapp />
   
-      <!-- Hero Section -->
       <section class="hero">
         <div class="hero-container">
           <div class="hero-image">
@@ -20,8 +18,6 @@
         </div>
       </section>
   
-      <!-- New Section: Prosedur Servis -->
-  <!-- New Section: Visi dan Misi -->
 <section class="visi-misi">
   <h2 class="visi-misi-title">VISI & MISI</h2>
   <div class="visi-misi-container">
@@ -40,8 +36,7 @@
   </div>
 </section>
 
-  
-      <!-- Footer -->
+
       <Footer />
     </div>
   </template>
@@ -62,14 +57,12 @@
   </script>
   
   <style scoped>
-  /* General Styles */
   .tentang-kami-page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
-  
-  /* Hero Section */
+
   .hero {
     display: flex;
     justify-content: center;
@@ -103,7 +96,7 @@
 @media (max-width: 768px) {
 
   .hero {
-    padding: 60px 20px; /* Samakan dengan .visi-misi */
+    padding: 60px 20px;
   }
   .hero-container {
     flex-direction: column;

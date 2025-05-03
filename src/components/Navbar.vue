@@ -70,7 +70,6 @@
         this.isMobile = window.innerWidth <= 768;
       },
       handleScroll() {
-        // Periksa apakah posisi scroll lebih dari 50px
         this.isScrolled = window.scrollY > 50;
       },
     },

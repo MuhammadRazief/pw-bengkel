@@ -1,8 +1,6 @@
-<!-- filepath: c:\xampp\htdocs\Bengkel\frontend\src\components\Footer.vue -->
 <template>
     <footer class="footer">
       <div class="footer-container">
-        <!-- Informasi -->
         <div class="footer-column">
           <h4>Informasi</h4>
           <ul>
@@ -14,7 +12,6 @@
           </ul>
         </div>
   
-        <!-- Kontak -->
         <div class="footer-column">
   <h4>Kontak</h4>
   <ul>
@@ -24,9 +21,7 @@
   </ul>
 </div>
 
-  
-        <!-- Subscribe -->
-            <!-- Social Media -->
+
             <div class="footer-column">
               <h2>Lokasi Kami</h2>
       <iframe 
@@ -82,7 +77,7 @@
   color: #333;
   padding: 40px 20px;
   font-size: 0.9rem;
-  margin: 0; /* Pastikan tidak ada margin */
+  margin: 0;
 }
 
 .footer-bawah {
@@ -90,7 +85,7 @@
   color: white;
   text-align: center;
   padding: 20px;
-  margin: 0; /* Hilangkan margin */
+  margin: 0;
 }
   .footer-container {
     display: flex;
@@ -115,8 +110,8 @@
 
 
 .router-link-active {
-  color: #007f5f; /* Warna hijau untuk link aktif */
-  font-weight: bold; /* Opsional: Tambahkan efek tebal */
+  color: #007f5f; 
+  font-weight: bold; 
 }
   
   
@@ -140,7 +135,7 @@
   
   
   .footer-column ul li a:hover {
-  text-decoration: underline; /* Tambahkan garis bawah saat hover */
+  text-decoration: underline;
 }
   
   .subscribe-form {

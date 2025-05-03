@@ -1,10 +1,8 @@
-<!-- filepath: c:\xampp\htdocs\Bengkel\frontend\src\views\Produk.vue -->
 <template>
   <div class="page-container">
     <Navbar />
     <Whatsapp />
 
-    <!-- Ikon Keranjang Belanja -->
     <div class="cart-icon" @click="toggleCart">
       <i class="fas fa-shopping-cart"></i>
       <span class="cart-count" v-if="cart.length > 0">{{ cart.length }}</span>
@@ -13,7 +11,6 @@
     <section class="produk-section">
   <h2 class="produk-title">PRODUK KAMI</h2>
   <div class="produk-container">
-    <!-- Produk 1 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/olimobil1.png" alt="Oli Mobil" class="produk-image" />
@@ -23,7 +20,6 @@
       <p class="produk-description">Rp 150.000</p>
     </div>
 
-    <!-- Produk 2 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/ban.jpg" alt="Ban Mobil" class="produk-image" />
@@ -33,17 +29,15 @@
       <p class="produk-description">Rp 800.000</p>
     </div>
 
-    <!-- Produk 3 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/aki.jpg" alt="Aki Mobil" class="produk-image" />
         <button class="btn-add" @click="addToCart({ name: 'Aki Mobil', price: '1.200.000', image: '../assets/aki-mobil.jpg' })">+</button>
       </div>
       <h3 class="produk-name">Aki Mobil</h3>
-      <p class="produk-description">Rp 1.200.000</p>
+      <p class="produk-description">Rp 1.250.000</p>
     </div>
 
-    <!-- Produk 4 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/filter.jpeg" alt="Filter Udara" class="produk-image" />
@@ -53,7 +47,6 @@
       <p class="produk-description">Rp 250.000</p>
     </div>
 
-    <!-- Produk 5 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/busi.jpeg" alt="Busi" class="produk-image" />
@@ -63,7 +56,6 @@
       <p class="produk-description">Rp 75.000</p>
     </div>
 
-    <!-- Produk 6 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/nyak.jpg" alt="Minyak Rem" class="produk-image" />
@@ -73,7 +65,6 @@
       <p class="produk-description">Rp 60.000</p>
     </div>
 
-    <!-- Produk 7 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/wiper.jpeg" alt="Wiper" class="produk-image" />
@@ -83,17 +74,15 @@
       <p class="produk-description">Rp 100.000</p>
     </div>
 
-    <!-- Produk 8 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/saringan.jpg" alt="Saringan Bensin" class="produk-image" />
         <button class="btn-add" @click="addToCart({ name: 'Saringan Bensin', price: '90.000', image: '../assets/saringan-bensin.jpg' })">+</button>
       </div>
       <h3 class="produk-name">Saringan Bensin</h3>
-      <p class="produk-description">Rp 90.000</p>
+      <p class="produk-description">Rp 100.000</p>
     </div>
 
-    <!-- Produk 9 -->
     <div class="produk-item">
       <div class="produk-image-wrapper">
         <img src="../assets/kampas.jpg" alt="Kampas Rem" class="produk-image" />
@@ -107,8 +96,6 @@
   </div>
 </section>
 
-
-    <!-- Checkout Section -->
     <section class="checkout-section" v-if="showCart">
       <h2 class="checkout-title">Keranjang Belanja</h2>
       <div class="checkout-container">
@@ -460,7 +447,6 @@ export default {
   text-align: left;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
   .produk-title {
     font-size: 2rem;

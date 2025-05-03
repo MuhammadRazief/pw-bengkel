@@ -1,19 +1,15 @@
 <template>
   <div class="kontak-page">
-    <!-- Navbar -->
     <Navbar />
     <Whatsapp />
 
-    <!-- Hero Section -->
     <section class="hero">
       <h1>Hubungi Kami</h1>
       <p>Kami siap membantu Anda dengan layanan terbaik.</p>
     </section>
 
-    <!-- Contact Section -->
     <section class="contact-section">
       <div class="contact-container">
-        <!-- Contact Form -->
         <div class="contact-form">
           <h2>Kirim Pesan</h2>
           <form @submit.prevent="submitForm">
@@ -33,8 +29,6 @@
           </form>
         </div>
 
-        <!-- Contact Info -->
-     <!-- Contact Info -->
     <div class="contact-info">
       <h2>Informasi Kontak</h2>
       <div class="info-item">
@@ -57,22 +51,20 @@
       </div>
     </section>
 
-    <!-- Map Section -->
     <section class="map-section">
       <h2>Lokasi Kami</h2>
       <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.703035085514!2d106.9337311!3d-6.712163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b50079394413%3A0x75fe9efbe74c2880!2sCibeureum%2C%20Cisarua%2C%20Bogor!5e0!3m2!1sen!2sid!4v1714460000000" 
-  width="100%" 
-  height="400" 
-  style="border:0;" 
-  allowfullscreen="" 
-  loading="lazy" 
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.703035085514!2d106.9337311!3d-6.712163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b50079394413%3A0x75fe9efbe74c2880!2sCibeureum%2C%20Cisarua%2C%20Bogor!5e0!3m2!1sen!2sid!4v1714460000000" 
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
 
     </section>
 
-    <!-- Footer -->
     <Footer />
   </div>
 </template>
@@ -118,7 +110,6 @@ export default {
   padding-top: 40px;
 }
 
-/* Hero Section */
 .hero {
   text-align: center;
   background: #025742;
@@ -278,7 +269,6 @@ export default {
   background: #007f5f;
 }
 
-/* Map Section */
 .map-section {
   padding: 50px 20px;
   text-align: center;

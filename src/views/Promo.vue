@@ -1,10 +1,8 @@
 <template>
     <div class="promo-page">
-      <!-- Navbar -->
       <Navbar />
         <Whatsapp />
     
-      <!-- Hero Section -->
       <section class="hero">
         <div class="hero-content">
           <h1 class="moving-text">Promo Terbaik untuk Anda</h1>
@@ -12,7 +10,6 @@
         </div>
       </section>
     
-      <!-- Promo Section -->
       <section class="promo-section">
         <h2 class="section-title">Penawaran Spesial</h2>
         <div class="promo-grid">
@@ -54,7 +51,6 @@
         </div>
       </section>
     
-      <!-- Footer -->
       <Footer />
     </div>
   </template>
@@ -104,18 +100,17 @@
   </script>
   
   <style scoped>
-  /* General Styles */
+
   .promo-page {
     font-family: 'Arial', sans-serif;
     color: #333;
   }
   
-  /* Hero Section */
   .hero {
     /* background: linear-gradient(to right, #025742, #007f5f); */
     /* color: rgb(0, 0, 0); */
     text-align: center;
-    padding: 100px 20px; /* Tambahkan jarak untuk menghindari navbar */
+    padding: 100px 20px;
     overflow: hidden;
   }
   
@@ -133,9 +128,9 @@
   
   
   .hero-content p {
-    font-size: 1.2rem; /* Ukuran font deskripsi */
-  font-weight: 400; /* Normal */
-  color: #666; /* Warna abu-abu */
+    font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
   margin-top: 8px;
   margin-bottom: 16px;
   }
@@ -145,7 +140,6 @@
     padding-top: 30px;
   }
   
-  /* Promo Section */
   .promo-section {
     padding: 50px 20px;
     /* background-color: #f8f9fa; */
@@ -238,7 +232,6 @@
     background: #007f5f;
   }
   
-  /* Responsiveness */
   @media (max-width: 768px) {
     .hero-content h1 {
       font-size: 2rem;
