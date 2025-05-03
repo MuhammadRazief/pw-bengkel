@@ -54,7 +54,7 @@
           // Simpan token atau data pengguna ke localStorage atau Vuex
           localStorage.setItem("token", response.data.token);
           alert("Login berhasil!");
-          this.$router.push("/beranda"); // Arahkan ke halaman dashboard
+          this.$router.push("/"); // Arahkan ke halaman dashboard
         } catch (error) {
           console.error(error);
           alert("Login gagal. Periksa email dan password Anda.");

@@ -4,7 +4,7 @@
         <div class="footer-column">
           <h4>Informasi</h4>
           <ul>
-            <li><router-link to="/beranda" class="footer-link">Beranda</router-link></li>
+            <li><router-link to="/" class="footer-link">Beranda</router-link></li>
             <li><router-link to="/produk" class="footer-link">Produk</router-link></li>
             <li><router-link to="/tentang-kami" class="footer-link">Tentang Kami</router-link></li>
             <li><router-link to="/promo" class="footer-link">Promo</router-link></li>
@@ -48,7 +48,7 @@
     name: "FooterPage",
     computed: {
     isHomePage() {
-      return this.$route.path === '/beranda';
+      return this.$route.path === '/';
     },
   },
   };

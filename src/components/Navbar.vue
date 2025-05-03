@@ -51,7 +51,7 @@
         isScrolled: false,
         isMobile: window.innerWidth <= 768,
         links: [
-        { label: "Beranda", to: "/beranda" },
+        { label: "Beranda", to: "/" },
         { label: "Produk", to: "/produk" },
         { label: "Tentang Kami", to: "/tentang-kami" },
         { label: "Promo", to: "/promo" },

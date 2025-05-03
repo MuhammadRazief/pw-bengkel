@@ -8,13 +8,12 @@ import Promo from "../views/Promo.vue";
 
 const routes = [
     { path: "/login", component: Login },
-    { path: "/beranda", component: Home },
+    { path: "/", component: Home },
     { path: "/produk", component: Produk },
     { path: "/kontak", component: Kontak },
     { path: "/tentang-kami", component: Tentang },
     { path: "/promo", component: Promo },
     // Redirect dari root ke /beranda
-    { path: "/", redirect: "/beranda" },
 ];
 
 const router = createRouter({
